@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<style>
+	#titre {
+		color: black;
+		font-size: 50px;
+		text-align: center;
+		}
+
+	#titre:hover {
+			animation-name: title;
+			animation-duration: 1s;
+			animation-fill-mode: forwards;
+
+		}
+	@keyframes title {
+				0% {
+					transform: scale(1.2);
+					color: red;
+			}
+				25% {
+					opacity: 0.2;
+					transform: scale(1.5);
+					color: red;
+			}
+				50% {
+					opacity: 0.5;
+					transform: scale(1.5);
+					color: red;
+			}
+				75% {
+					opacity: 0.2;
+					transform: scale(1.5);
+					color: red;
+			}
+				100% {
+					opacity: 1;
+					transform: scale(1.5);
+					color: red;
+			}
+	
+</style>
+
+<div id="titre">
+	<p>BrakesOFF</p>
+</div>
